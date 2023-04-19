@@ -13,16 +13,38 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form action="" id="survey-form">
         <div>
-            <label for="name">Name</label><br>
-            <input type="text" id="name">
+            <label id="name-label" for="name">Name</label><br>
+            <input type="text" id="name" placeholder="entre you name">
         </div>
         <div>
-            <label for="email">Email</label><br>
-            <input type="email" id="email">
+            <label id="email-label" for="email">Email</label><br>
+            <input type="email" id="email" placeholder="enter you email">
         </div>
         <div>
-            <label for="number">Age(optional)</label><br>
-            <input type="number" id="number" min="10" max="90">
+            <label id="number-label" for="number">Age(optional)</label><br>
+            <input type="number" id="number" min="10" max="90" placeholder="entre you age">
+        </div>
+        <div>
+            <label id="role-label" for="">Which option best describes your current role?</label><br>
+            <select name="role" id="dropdown">
+               <option value="Studet">Student</option>
+               <option value="Full time job">Full time job</option> 
+            </select>
+        </div>
+        <div>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for="" value="">
+                <input value="Definitely" type="radio" name="radio">
+                Definitely
+            </label>
+            <label for="" value="">
+                <input value="Maybe" type="radio" name="radio" id="">
+                Maybe
+            </label>
+            <label for="" value="">
+                <input value="Not sure" type="radio" name="radio">
+                Not sure
+            </label>
         </div>
 
 
